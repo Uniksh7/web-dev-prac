@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-image: url('./image/0x0.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+h1{
+    font-size: 120px;
+}
+.project{
+    text-transform: lowercase;
+}
+.success-message{
+    border: 10px solid green;
+    padding: 50px;
+    margin-left: 150px;
+}
+.error-message{
+    border: 2px solid rgb(94, 26, 26);
+   
+}
+.success-message,.error-message{
+    background-color: seashell;
+    color: gray;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    font-weight: light;
+    text-align: center;
+    height: 200px;
+    width: 350px;
+}
+.message.success-message{
+    border: 2px solid rgb(51, 170, 224);
+}
+header .item{
+    text-decoration: underline;
+}
